@@ -64,10 +64,10 @@ docker compose build
 docker compose up -d
 
 # Check it's running
-curl http://localhost:8000/health
+curl http://localhost:5000/health
 
 # Run a prediction
-curl -X POST http://localhost:8000/predict \
+curl -X POST http://localhost:5000/predict \
      -H "Content-Type: application/json" \
      -d '{"text": "My name is Miguel and my email is miguel@example.com"}'
 ```

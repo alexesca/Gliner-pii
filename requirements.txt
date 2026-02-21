@@ -1,3 +1,4 @@
 fastapi
 uvicorn[standard]
 gliner
+transformers<4.49

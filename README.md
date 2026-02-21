@@ -12,7 +12,7 @@ A self-hosted, GPU-accelerated REST API for detecting Personally Identifiable In
 
 - **Zero-config PII detection** — pass any text and a list of labels, get entities back
 - **Flexible labels** — detect any combination of PII types per request
-- **GPU-accelerated** — runs on CUDA via the official PyTorch Docker image
+- **GPU-accelerated** — runs on CUDA 12.4 via the official PyTorch 2.5.1 Docker image
 - **Offline-capable** — model weights are baked into the Docker image at build time
 - **Production-ready** — health check endpoint, `restart: unless-stopped`, uvicorn ASGI server
 

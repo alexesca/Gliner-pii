@@ -1,5 +1,5 @@
 # CUDA-enabled PyTorch base — provides Python 3.10, CUDA 12.1, cuDNN 8
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+FROM pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
 
 WORKDIR /app
 
